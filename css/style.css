@@ -1,0 +1,1266 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 !important;
+}
+.container-fluid{
+	padding: 0px !important;
+}
+/*header*/
+header{
+	height: 966px;
+	background-image: url(../img/header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+header div.menu{
+	height: 137px;
+	background: rgba(0, 0, 0, 0.5);
+}
+header div.menu a img#logo{
+	display: block;
+	padding-top: 50px;
+	padding-left: 100px;
+}
+header div.menu a img#icon-search{
+	display: block;
+	padding-top: 50px;
+	padding-right: 50px;
+}
+header nav ul{
+	list-style-type: none;
+	padding-right: 50px;
+	margin: 0;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 50px;
+}
+header nav ul li a{
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	color: #39b9ef;
+	font-size: 18px;
+	text-decoration: underline;
+}
+header div.call-to-action h1{
+	margin-top: 290px;
+	text-align: center;
+	color: #fff;
+	font-size: 72px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+header div.call-to-action h1 span{
+	color: #39b9ef;
+}
+header div.call-to-action p{
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+header div.call-to-action a{
+	display: block;
+	width: 215px;
+	height: 50px;
+	background: #39b9ef;
+	color: #fff;
+	border-radius: 25px;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}
+/*our services*/
+div.services-background{
+	background-image: url(../img/background-services.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-bottom: 140px;
+}
+section.our-services h2{
+	color: #242424;
+	font-size: 48px;
+	text-align: center;
+	margin-top: 70px;
+	border-bottom: 1px solid #e7e7e7;
+	padding-bottom: 80px; 
+}
+section.our-services div.services div{
+	padding-top: 80px;
+}
+div.services div img{
+	display: block;
+	margin-bottom: 50px;
+}
+div.services div h3{
+	color: #242424;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 34px;
+}
+section.our-services p, div.services-2 p{
+	color: #878787;
+	font-size: 14px;
+	line-height: 24px;
+	max-width: 500px;
+}
+section.our-services a.buttom{
+	display: block;
+	margin: 65px auto;
+	height: 45px;
+	width: 150px;
+	border-radius: 25px;
+	text-decoration: none;
+	text-align: center;
+	background: #2ebaee;
+	margin-top: 67px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 45px;
+}
+section.our-services a.buttom:hover{
+	color: #2ebaee;
+	background: #fff;
+	border: 1px solid #2ebaee;
+}
+div.services-2 div h3{
+	color: #242424;
+	font-size: 36px;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+div.services-2{
+	margin-top: 180px;
+}
+div.services-2 div a#buttom-left, div.services-3 div a#buttom-left, section.two-blocks a#buttom-left{
+	margin-top: 44px;
+	margin-left: 0px;
+}
+div.services-2 img.laptop{
+	max-width: 700px;
+}
+div.services-3 img.smart-book{
+	margin-right: 133px;
+	max-width: 700px;
+}
+div.services-3{
+	margin-top: 240px;
+}
+section.our-services a.buttom-white{
+	display: block;
+	margin: 65px auto;
+	height: 45px;
+	width: 150px;
+	border-radius: 25px;
+	text-decoration: none;
+	text-align: center;
+	background: #fff;
+	margin-top: 67px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #2ebaee;
+	line-height: 45px;
+}
+section.our-services a.buttom-white:hover{
+	color: #2ebaee;
+	background: #fff;
+	border: 1px solid #2ebaee;
+}
+div.services-3 p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px;
+	max-width: 555px;
+}
+div.services-3 div h3{
+	color: #fff;
+	font-size: 36px;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+.padd-left-75-px{
+	padding-left: 75px !important;
+}
+/*blocks two-blocks*/
+section.two-blocks{
+	height: 667px;
+}
+section.two-blocks img[alt="two-blocks-boy"]{
+	max-width: 100%;
+}
+section.two-blocks a.buttom{
+	display: block;
+	margin: 65px auto;
+	height: 45px;
+	width: 150px;
+	border-radius: 25px;
+	text-decoration: none;
+	text-align: center;
+	background: #2ebaee;
+	margin-top: 67px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 45px;
+	margin-left: 75px !important;
+}
+section.two-blocks a.buttom:hover{
+	color: #2ebaee;
+	background: #fff;
+	border: 1px solid #2ebaee;
+}
+section.two-blocks p{
+	color: #878787;
+	font-size: 14px;
+	line-height: 24px;
+	max-width: 600px;
+	margin-left: 75px;
+}
+section.two-blocks h2{
+	color: #242424;
+	font-size: 72px;
+	font-weight: normal;
+	margin-bottom: 65px;
+	margin-top: 100px;
+	max-width: 600px;
+	margin-left: 75px;
+}
+/*blocks four-blocks*/
+section.four-blocks{
+	max-height: 433px;
+}
+section.four-blocks div.four-blocks-background-1{
+	background-image: url(../img/four-blocks-background-1.jpg); 
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+section.four-blocks div.four-blocks-background-2{
+	background-image: url(../img/four-blocks-background-2.jpg); 
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+section.four-blocks div.four-blocks-background-3{
+	background-image: url(../img/four-blocks-background-3.jpg); 
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+section.four-blocks div.four-blocks-background-4{
+	background-image: url(../img/four-blocks-background-4.jpg); 
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+section.four-blocks h2{
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	padding-top: 158px;
+	padding-bottom: 158px;
+	color: #fff;
+
+	width: 100%;
+	height: 100%;
+	max-width: 502px;
+	max-height: 434px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+section.four-blocks h2:hover{
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	padding-top: 158px;
+	padding-bottom: 158px;
+	color: #fff;
+
+	width: 100%;
+	height: 100%;
+	max-width: 502px;
+	max-height: 434px;
+	background-color: rgba(46, 186, 238, 0.85);
+}
+/*check our awesome team*/
+section.check-our-awesome-team h2{
+	font-size: 72px;
+	font-weight: bold;
+	color: 242424;
+	padding-right: 50%;
+	letter-spacing: 0px;
+	margin-top: 95px;
+	margin-bottom: 110px;
+}
+section.check-our-awesome-team h2 span{
+	color: #2ebaee;
+}
+#names-36-px{
+	font-size: 36px;
+	color: #242424;
+}
+section.check-our-awesome-team p{
+	font-size: 14px;
+	color: #878787;
+	text-align: center;
+}
+section.check-our-awesome-team a.buttom{
+	display: block;
+	margin: 30px auto;
+	height: 45px;
+	width: 150px;
+	border-radius: 25px;
+	text-decoration: none;
+	text-align: center;
+	background: #2ebaee;
+	margin-top: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 45px;
+}
+section.check-our-awesome-team a.buttom:hover{
+	color: #2ebaee;
+	background: #fff;
+	border: 1px solid #2ebaee;
+}
+section.check-our-awesome-team div.person-1,
+section.check-our-awesome-team div.person-2,
+section.check-our-awesome-team div.person-3,
+section.check-our-awesome-team div.person-4{
+	max-width: 303px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 216px;
+	max-height: 384px;
+}
+section.check-our-awesome-team div.person-1 img,
+section.check-our-awesome-team div.person-2 img,
+section.check-our-awesome-team div.person-3 img,
+section.check-our-awesome-team div.person-4 img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*footer*/
+div.footer-background{
+	background-image: url(../img/background-footer.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+section.check-our-awesome-team a.buttom{
+	margin-bottom: 0px !important;
+}
+section.footer-contacts-contact-form div.contacts h2{
+	margin-top: 27px;
+	color: #fff;
+	font-size: 72px;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+section.footer-contacts-contact-form div.contacts p.address{
+	font-size: 18px;
+	color: #878787;
+	margin-bottom: 34px;
+}
+section.footer-contacts-contact-form div.contacts p{
+	color: #878787;
+	font-size: 30px;
+	margin-bottom: 24px;
+	margin-top: 24px;
+}
+section.footer-contacts-contact-form div.contacts span{
+	color: #2ebaee;
+}
+section.footer-contacts-contact-form div.contacts div.links{
+	margin-top: 70px;
+	margin-bottom: 216px;
+}
+section.footer-contacts-contact-form div.contacts div.links a.link1{
+	width: 55px;
+	height: 55px;
+	margin-right: 36px;
+}
+section.footer-contacts-contact-form div.contacts div.links a.link2{
+	width: 55px;
+	height: 55px;
+	margin-right: 36px;
+}
+section.footer-contacts-contact-form div.contacts div.links a.link3{
+	width: 55px;
+	height: 55px;
+	margin-right: 36px;
+}
+section.footer-contacts-contact-form div.contacts div.links a.link4{
+	width: 55px;
+	height: 55px;
+	margin-right: 36px;
+}
+section.footer-contacts-contact-form div.contacts div.links a.link5{
+	width: 55px;
+	height: 55px;
+}
+section.footer-contacts-contact-form div.contact-form form input[type="text"],
+section.footer-contacts-contact-form div.contact-form form input[type="email"]{
+	margin-top: 33px;
+	font-size: 14px;
+	color: #fff;
+	height: 60px;
+	width: 100%;
+	border-top: 1px solid #878787;
+	border-radius: 5px; 
+	display: block;
+	background: none;
+	padding-top: auto;
+	padding-bottom: auto;
+	padding-left: 15px;
+}
+section.footer-contacts-contact-form div.contact-form form textarea{
+	display: block;
+	margin-top: 33px;
+	padding-top: 27px;
+	padding-left: 15px;
+	font-size: 14px;
+	color: #fff;
+	height: 202px;
+	width: 100%;
+	border: 1px solid #878787;
+	border-radius: 5px;
+	background: none;
+	resize: none;
+}
+div.footer-background div.contact-form button{
+	display: block;
+	margin: 30px auto;
+	height: 45px;
+	width: 150px;
+	color: #fff;
+	border-radius: 25px;
+	text-decoration: none;
+	text-align: center;
+	background: #2ebaee;
+	margin-top: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 45px;
+	border: 1px solid #878787;
+}
+div.footer-background div.contact-form button:hover{
+	color: #2ebaee;
+	background: #fff;
+	border: 1px solid #2ebaee;
+}
+footer{
+	height: 135px;
+	background: #000;
+}
+footer p, footer ul{
+	list-style-type: none;
+	margin-top: 56px;
+	padding: 0;
+	color: #fff;
+}
+footer ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+footer ul li a{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+}
+footer ul li a:hover{
+	text-decoration: underline;
+}
+footer p{
+	text-align: right;
+}
+
+/*local adapt*/
+
+.img-adapt{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.two-blocks-height-adapt{
+	height: auto !important;
+}
+.four-blocks-center-adapt{
+	margin: 0 auto;
+    max-width: 2008px;
+}
+
+/*media queries*/
+
+@media (max-width: 575.98px) {
+	header nav ul li{
+		margin-right: 15px;
+	}
+	header div.menu{
+		height: 150px;
+	}
+	header div.menu a img#logo{
+		margin: 0 auto;
+		padding: 15px 0 0 0;
+	}
+	header div.menu div.col-md-3{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.flex-row-reverse{
+		justify-content: center; 
+	}
+	header div.menu div.col-md-9{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	header div.menu a img#icon-search{
+		padding-right: 0;
+	}
+	header div.call-to-action h1{
+		font-size: 48px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	header div.call-to-action h1{
+		margin-top: 250px; 
+	}
+	header div.call-to-action p{
+		padding-right: 40px;
+		padding-left: 40px;
+		font-size: 18px;
+	}
+	section.our-services p, div.services div.col-3{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+	section.our-services div.services div{
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 30px;
+	}
+	div.services div img{
+		margin-bottom: 30px;
+	}
+	div.services div h3{
+		margin-bottom: 0;
+	}
+	div.services-2 div h3 {
+    	margin-top: 16px;
+    	margin-bottom: 24px;
+    	color: #fff;
+	}
+	div.services-2 div p, div.services-3 div p{
+		font-size: 14px;
+		color: #fff;
+	}
+	section.our-services div.services-2 div.col-6,
+	section.our-services div.services-3 div.col-6{
+		flex: 0 0 100%;
+		max-width: 100%; 
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	section.our-services div.services-2 div.col-6 img,
+	section.our-services div.services-3 div.col-6 img{
+		max-width: 0;
+	}
+	section.our-services a.buttom{
+		background: #fff;
+		color: #2ebaee;
+	}
+	div.services-2{
+		margin-top: 25px;
+	}
+	div.services-3{
+		margin-top: 0px;
+	}
+	div.services-3 p{
+		padding-left: 10px;
+	}
+	div.services-3 h3{
+		padding-left: 10px !important;
+	}
+	div.services-3 a{
+		margin-left: 10px !important;
+		margin-bottom: 40px !important;
+	}
+	section.two-blocks div#two-blocks-100-percent-adapt{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.padd-left-75-px{
+		padding-left: 0 !important;
+	}
+    section.two-blocks a#buttom-left{
+    	margin-top: 20px;
+    	margin-left: auto !important;
+    	margin-right: auto;
+    	margin-bottom: 15px !important;
+    }
+    section.two-blocks h2{
+    	font-size: 24px !important;
+    	margin-left: 0;
+    	margin-right: 0 !important;
+    	max-width: 100% !important;
+    	text-align: center; 
+    }
+    section.two-blocks p{
+    	margin-left: 50px !important;
+    	max-width: 100%;
+    }
+    section.four-blocks div.col-3{
+    	flex: 0 0 50%;
+    	max-width: 100%; 
+    }
+    section.four-blocks h2{
+    	font-size: 24px;
+    	padding-top: 60px;
+    	padding-bottom: 60px;
+    	padding-left: 20px;
+    	padding-right: 20px;
+    }
+    section.four-blocks h2:hover{
+    	font-size: 24px;
+    	padding-top: 60px;
+    	padding-bottom: 60px;
+    	padding-left: 20px;
+    	padding-right: 20px;
+    }
+    section.four-blocks div.four-blocks-background-1,
+    section.four-blocks div.four-blocks-background-2,
+    section.four-blocks div.four-blocks-background-3,
+    section.four-blocks div.four-blocks-background-4{
+    	max-height: 100%;
+    }
+    section.check-our-awesome-team h2{
+    	font-size: 48px;
+    	padding-right: 0;
+    	text-align: center;
+    }
+	section.our-services a.buttom.blue{
+		background: #2ebaee;
+		color: #fff;
+	}
+	div.services-3 div h3{
+		margin-top: 16px;
+		margin-bottom: 24px;
+		padding-left: 0;
+	}
+	section.our-services a.buttom.blue {
+    	background: #fff;
+    	color: #2ebaee;
+	}
+	section.two-blocks h2{
+		font-size: 36px;
+    	margin-top: 15px;
+    	margin-bottom: auto;
+    	margin-right: 50px;
+    	max-width: 345px;
+	}
+	div.services-background{
+		padding-bottom: 0;
+	}
+	section.check-our-awesome-team div.col-3{
+		flex: 0 0 50%;
+		max-width: 35%; 
+	}
+	section.check-our-awesome-team div.person-1 img,
+    section.check-our-awesome-team div.person-2 img,
+    section.check-our-awesome-team div.person-3 img,
+    section.check-our-awesome-team div.person-4 img{
+    	max-width: 80%;
+    }
+    section.check-our-awesome-team div.person-1,
+    section.check-our-awesome-team div.person-2,
+    section.check-our-awesome-team div.person-3,
+    section.check-our-awesome-team div.person-4{
+    	margin-bottom: 166px;
+    }
+    div.footer-background{
+    	max-height: 724px;
+    }
+    section.footer-contacts-contact-form div.col-6{
+    	flex: 0 0 100%;
+    	max-width: 100%; 
+    }
+    section.footer-contacts-contact-form div.contacts h2{
+    	font-size: 36px;
+    	margin-bottom: 0;
+    }
+    section.footer-contacts-contact-form div.contacts p{
+    	font-size: 18px;
+    	margin: 12px 0;
+    }
+    section.footer-contacts-contact-form div.contacts div.links a.link4 img,
+    section.footer-contacts-contact-form div.contacts div.links a.link5 img{
+    	margin-top: 10px;
+    }
+    section.footer-contacts-contact-form div.contacts div.links{
+    	margin-bottom: 10px;
+    	margin-top: 10px;
+    }
+    section.footer-contacts-contact-form div.contact-form form textarea{
+    	height: 120px;
+    }
+    footer p{
+    	font-size: 14px;
+    }
+    footer ul li a{
+    	font-size: 12px;
+    }
+    footer ul li{
+    	margin-right: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	header nav ul li{
+		margin-right: 20px;
+	}
+	header div.menu{
+		height: 150px;
+	}
+	header div.menu a img#logo{
+		margin: 0 auto;
+		padding: 15px 0 0 0;
+	}
+	header div.menu div.col-md-3{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.flex-row-reverse{
+		justify-content: center; 
+	}
+	header div.menu div.col-md-9{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	header div.menu a img#icon-search{
+		padding-right: 0;
+	}
+	header div.call-to-action h1{
+		font-size: 48px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	header div.call-to-action h1{
+		margin-top: 250px; 
+	}
+	header div.call-to-action p{
+		padding-right: 40px;
+		padding-left: 40px;
+		font-size: 18px;
+	}
+	section.our-services p, div.services div.col-3{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+	section.our-services div.services div{
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 30px;
+	}
+	div.services div img{
+		margin-bottom: 30px;
+	}
+	div.services div h3{
+		margin-bottom: 0;
+	}
+	div.services-2 div h3 {
+    	margin-top: 16px;
+    	margin-bottom: 24px;
+    	color: #fff;
+	}
+	div.services-2 div p, div.services-3 div p{
+		font-size: 14px;
+		color: #fff;
+	}
+	section.our-services div.services-2 div.col-6,
+	section.our-services div.services-3 div.col-6{
+		flex: 0 0 100%;
+		max-width: 100%; 
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	section.our-services div.services-2 div.col-6 img,
+	section.our-services div.services-3 div.col-6 img{
+		max-width: 0;
+	}
+	section.our-services a.buttom{
+		background: #fff;
+		color: #2ebaee;
+	}
+	div.services-2{
+		margin-top: 50px;
+	}
+	div.services-3{
+		margin-top: 45px;
+	}
+	div.services-3 p{
+		padding-left: 10px;
+	}
+	div.services-3 h3{
+		padding-left: 10px !important;
+	}
+	div.services-3 a{
+		margin-left: 10px !important;
+		margin-bottom: 40px !important;
+	}
+	section.two-blocks div#two-blocks-100-percent-adapt{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.padd-left-75-px{
+		padding-left: 0 !important;
+	}
+    section.two-blocks a#buttom-left{
+    	margin-top: 20px;
+    	margin-left: auto !important;
+    	margin-right: auto;
+    	margin-bottom: 15px;
+    }
+    section.two-blocks h2{
+    	font-size: 24px !important;
+    	margin-left: 0;
+    	margin-right: 0 !important;
+    	max-width: 100% !important;
+    	text-align: center; 
+    }
+    section.two-blocks p{
+    	margin-left: 50px !important;
+    	max-width: 100%;
+    }
+    section.four-blocks div.col-3{
+    	flex: 0 0 50%;
+    	max-width: 100%; 
+    }
+    section.four-blocks h2{
+    	font-size: 24px;
+    	padding-top: 60px;
+    	padding-bottom: 60px;
+    	padding-left: 20px;
+    	padding-right: 20px;
+    }
+    section.four-blocks h2:hover{
+    	font-size: 24px;
+    	padding-top: 60px;
+    	padding-bottom: 60px;
+    	padding-left: 20px;
+    	padding-right: 20px;
+    }
+    section.four-blocks div.four-blocks-background-1,
+    section.four-blocks div.four-blocks-background-2,
+    section.four-blocks div.four-blocks-background-3,
+    section.four-blocks div.four-blocks-background-4{
+    	max-height: 100%;
+    }
+    section.check-our-awesome-team h2{
+    	font-size: 48px;
+    	padding-right: 0;
+    	text-align: center;
+    }
+	section.our-services a.buttom.blue{
+		background: #2ebaee;
+		color: #fff;
+	}
+	div.services-3 div h3{
+		margin-top: 16px;
+		margin-bottom: 24px;
+		padding-left: 0;
+	}
+	section.our-services a.buttom.blue {
+    	background: #fff;
+    	color: #2ebaee;
+	}
+	section.two-blocks h2{
+		font-size: 36px;
+    	margin-top: 15px;
+    	margin-bottom: auto;
+    	margin-right: 50px;
+    	max-width: 345px;
+	}
+	div.services-background{
+		padding-bottom: 0;
+	}
+	section.check-our-awesome-team div.col-3{
+		flex: 0 0 50%;
+		max-width: 35%; 
+	}
+	section.check-our-awesome-team div.person-1 img,
+    section.check-our-awesome-team div.person-2 img,
+    section.check-our-awesome-team div.person-3 img,
+    section.check-our-awesome-team div.person-4 img{
+    	max-width: 80%;
+    }
+    section.check-our-awesome-team div.person-1,
+    section.check-our-awesome-team div.person-2,
+    section.check-our-awesome-team div.person-3,
+    section.check-our-awesome-team div.person-4{
+    	margin-bottom: 166px;
+    }
+    div.footer-background{
+    	max-height: 724px;
+    }
+    section.footer-contacts-contact-form div.col-6{
+    	flex: 0 0 100%;
+    	max-width: 100%; 
+    }
+    section.footer-contacts-contact-form div.contacts h2{
+    	font-size: 36px;
+    	margin-bottom: 0;
+    }
+    section.footer-contacts-contact-form div.contacts p{
+    	font-size: 18px;
+    	margin: 12px 0;
+    }
+    section.footer-contacts-contact-form div.contacts div.links a.link4 img,
+    section.footer-contacts-contact-form div.contacts div.links a.link5 img{
+    	margin-top: 10px;
+    }
+    section.footer-contacts-contact-form div.contacts div.links{
+    	margin-bottom: 10px;
+    	margin-top: 10px;
+    }
+    section.footer-contacts-contact-form div.contact-form form textarea{
+    	height: 120px;
+    }
+    footer p{
+    	font-size: 14px;
+    }
+    footer ul li a{
+    	font-size: 12px;
+    }
+    footer ul li{
+    	margin-right: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	header nav ul li{
+		margin-right: 20px;
+	}
+	header div.menu a img#logo{
+		padding-left: 20px;
+	}
+	header div.menu a img#icon-search{
+		padding-right: 0;
+	}
+	header div.call-to-action h1{
+		font-size: 60px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	section.our-services p, div.services div.col-3{
+		flex: 0 0 50%;
+    	max-width: 100%;
+	}
+	section.our-services div.services div{
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 50px;
+	}
+	div.services-2 div h3 {
+    	margin-top: 16px;
+    	margin-bottom: 24px;
+	}
+	div.services-2 div h3{
+		padding-right: 15px;
+	}
+	div.services-2 div p, div.services-3 div p{
+		padding-right: 15px;
+		font-size: 14px;
+	}
+	section.our-services a.buttom{
+		background: #fff;
+		color: #2ebaee;
+	}
+	div.services-2{
+		margin-top: 100px;
+	}
+	div.services-3{
+		margin-top: 100px;
+	}
+	section.two-blocks div#two-blocks-100-percent-adapt{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+    section.two-blocks a#buttom-left{
+    	margin-top: 20px;
+    	margin-left: auto !important;
+    	margin-right: auto;
+    	margin-bottom: 15px;
+    }
+    section.two-blocks h2{
+    	font-size: 24px !important;
+    	margin-left: 0;
+    	margin-right: 0 !important;
+    	max-width: 100% !important;
+    	text-align: center; 
+    }
+    section.two-blocks p{
+    	margin-left: 50px !important;
+    	max-width: 100%;
+    }
+    section.four-blocks h2{
+    	font-size: 24px;
+    	padding-top: 60px;
+    	padding-bottom: 60px;
+    }
+    section.four-blocks h2:hover{
+    	font-size: 24px;
+    	padding-top: 60px;
+    	padding-bottom: 60px;
+    }
+    section.four-blocks div.four-blocks-background-1,
+    section.four-blocks div.four-blocks-background-2,
+    section.four-blocks div.four-blocks-background-3,
+    section.four-blocks div.four-blocks-background-4{
+    	max-height: 250px;
+    }
+    section.check-our-awesome-team h2{
+    	font-size: 48px;
+    	padding-right: 0;
+    	text-align: center;
+    }
+	section.our-services a.buttom.blue{
+		background: #2ebaee;
+		color: #fff;
+	}
+	div.services-3 div h3{
+		margin-top: 16px;
+		margin-bottom: 24px;
+	}
+	.padd-left-75-px{
+		padding-left: 50px !important;
+	}
+	section.two-blocks h2{
+		font-size: 36px;
+    	margin-top: 15px;
+    	margin-bottom: auto;
+    	margin-right: 50px;
+    	max-width: 345px;
+	}
+	div.services-background{
+		padding-bottom: 0;
+	}
+	section.check-our-awesome-team div.person-1 img,
+    section.check-our-awesome-team div.person-2 img,
+    section.check-our-awesome-team div.person-3 img,
+    section.check-our-awesome-team div.person-4 img{
+    	max-width: 80%;
+    }
+    section.check-our-awesome-team div.person-1,
+    section.check-our-awesome-team div.person-2,
+    section.check-our-awesome-team div.person-3,
+    section.check-our-awesome-team div.person-4{
+    	margin-bottom: 166px;
+    }
+    div.footer-background{
+    	max-height: 724px;
+    }
+    section.footer-contacts-contact-form div.contacts h2{
+    	font-size: 36px;
+    }
+    section.footer-contacts-contact-form div.contacts p{
+    	font-size: 18px;
+    }
+    section.footer-contacts-contact-form div.contacts div.links a.link4 img,
+    section.footer-contacts-contact-form div.contacts div.links a.link5 img{
+    	margin-top: 10px;
+    }
+    section.footer-contacts-contact-form div.contacts div.links{
+    	margin-bottom: 100px;
+    }
+    footer p{
+    	font-size: 14px;
+    }
+    footer ul li a{
+    	font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	header div.call-to-action h1{
+		font-size: 60px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	section.our-services div.services div.col-3{
+    	padding: 0 15px 0 15px;
+    }
+    div.services-2 div h3{
+    	margin-top: 16px;
+    	margin-bottom: 24px;
+    }
+    div.services-2 div h3{
+    	margin-top: 16px;
+    	margin-bottom: 24px;	
+    }
+    section.our-services p, div.services-2 p{
+    	padding-right: 25px;
+    }
+    div.services-3 div h3{
+    	margin-top: 16px;
+    	margin-bottom: 24px;
+    }
+    section.two-blocks h2{
+    	font-size: 36px;
+    	margin-top: 15px;
+    	margin-bottom: auto;
+    	margin-right: 50px;
+    }
+    section.two-blocks p{
+    	margin-right: 50px;
+    	margin-bottom: auto;
+    }
+    section.two-blocks a.buttom{
+    	margin-bottom: 15px;
+    }
+    section.two-blocks a#buttom-left{
+    	margin-top: 20px;
+    }
+    section.four-blocks h2{
+    	font-size: 30px;
+    	padding-top: 60px;
+    	padding-bottom: 60px;
+    }
+    section.four-blocks h2:hover{
+    	font-size: 30px;
+    	padding-top: 60px;
+    	padding-bottom: 60px;
+	}
+    section.four-blocks div.four-blocks-background-1,
+    section.four-blocks div.four-blocks-background-2,
+    section.four-blocks div.four-blocks-background-3,
+    section.four-blocks div.four-blocks-background-4{
+    	max-height: 250px;
+    }
+    section.check-our-awesome-team h2{
+    	font-size: 48px;
+    	padding-right: 0;
+    	text-align: center;
+    }
+    section.check-our-awesome-team div.person-1 img,
+    section.check-our-awesome-team div.person-2 img,
+    section.check-our-awesome-team div.person-3 img,
+    section.check-our-awesome-team div.person-4 img{
+    	max-width: 80%;
+    }
+    section.check-our-awesome-team div.person-1 a.buttom{
+    	margin-top: 75px;
+    }
+    section.check-our-awesome-team div.person-1,
+    section.check-our-awesome-team div.person-2,
+    section.check-our-awesome-team div.person-3,
+    section.check-our-awesome-team div.person-4{
+    	margin-bottom: 166px;
+    }
+    section.footer-contacts-contact-form div.contacts h2{
+    	font-size: 48px;
+    }
+    section.footer-contacts-contact-form div.contacts div.links{
+    	margin-bottom: 166px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1409px) {
+	header div.menu {
+    	padding-right: 25px;
+    	padding-left: 25px;
+	}
+	header div.call-to-action h1{
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	section.two-blocks h2{
+		margin-top: 15px;
+    	margin-bottom: auto;
+    	font-size: 60px;
+	}
+	section.two-blocks p{
+		max-width: 555px;
+		padding-right: 20px;
+	}
+	section.two-blocks h2{
+    	margin-bottom: auto !important;
+    }
+    section.our-services div.services div.col-3{
+    	padding: 0 15px 0 15px;
+    }
+    section.two-blocks a.buttom{
+    	margin-bottom: auto;
+    }
+    section.four-blocks h2{
+    	font-size: 36px;
+    }
+    section.four-blocks h2:hover{
+		font-size: 36px;
+	}
+    section.check-our-awesome-team h2{
+    	padding-right: 0;
+    	text-align: center;
+    }
+    section.check-our-awesome-team div.person-1,
+    section.check-our-awesome-team div.person-2,
+    section.check-our-awesome-team div.person-3,
+    section.check-our-awesome-team div.person-4{
+    	margin-bottom: 166px;
+    }
+    section.footer-contacts-contact-form div.contacts h2{
+    	font-size: 48px;
+    }
+    section.footer-contacts-contact-form div.contacts div.links{
+    	margin-bottom: 166px;
+    }
+}
+
+@media (min-width: 1410px)  and (max-width: 2000px) {
+	header div.menu {
+    	max-width: 2000px;
+    	margin: 0 auto;
+	}
+	section.two-blocks img[alt="two-blocks-boy"] {
+    	max-width: 100%;
+    	margin: 0 0 auto auto;
+    }
+    section.two-blocks p{
+    	margin-bottom: auto;
+    	max-width: 555px;
+    }
+    section.two-blocks h2{
+    	margin-top: 30px !important;
+    }
+    section.two-blocks a.buttom{
+    	margin-bottom: auto;
+    }
+}
+
+@media (min-width: 2001px) {
+	header div.menu{
+		max-width: 2010px;
+		margin: 0 auto;
+	}
+	section.two-blocks img[alt="two-blocks-boy"] {
+    	max-width: 100%;
+    	margin: 0 0 auto auto;
+    }
+    section.four-blocks div.four-blocks-background-1,
+    section.four-blocks div.four-blocks-background-2,
+    section.four-blocks div.four-blocks-background-3,
+    section.four-blocks div.four-blocks-background-4{
+    	margin: 0 0 0 0;
+    	max-width: 502px;
+    }
+    footer{
+    	max-width: 2010px;
+    	margin: 0 auto; 
+    }
+}
